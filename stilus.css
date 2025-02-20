@@ -83,9 +83,14 @@ section {
     border: 1px solid rgb(50, 48, 48);
 }
 
-/* Reszponzív elrendezés */
-@media screen and (max-width: 600px) {
-    h1 {
-        font-size: 40px;
+@media screen and (max-width:1000px){
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width:600px){
+    main {
+        grid-template-columns: 1fr;
     }
 }
