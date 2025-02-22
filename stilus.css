@@ -15,7 +15,8 @@ h1 {
 }
 
 nav {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     justify-content: center;
     gap: 15px;
     background-color: #333;
