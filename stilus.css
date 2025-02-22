@@ -17,7 +17,6 @@ h1 {
 nav {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    justify-content: center;
     gap: 15px;
     background-color: #333;
     padding: 10px 0;
